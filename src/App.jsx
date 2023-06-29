@@ -28,7 +28,7 @@ function App() {
 
   
  // window.onload = function () {
-    const setImage = Math.floor(Math.random() * images.length);
+    const setImage = Math.floor(Math.random() * images.length - 1);
     document.body.style = `background-image: url(${ images[setImage] }) `;
     
   //}  
