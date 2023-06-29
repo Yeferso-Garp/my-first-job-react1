@@ -1,0 +1,99 @@
+:root {
+  --cores-dancantes: rgba(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217), rgb(255, 45, 83);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+body {
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-image: url(../src/img/fondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.countent h1 {
+  box-sizing: border-box;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 35px;
+  text-shadow: 8px 8px 6px rgba(159, 221, 44, 1);
+}
+.countent .card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+  z-index: -1;
+  position: relative;
+  border-radius: 15px;
+  color: rgb(219, 228, 236);
+  background-image: url(https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg?w=826&t=st=1687969315~exp=1687969915~hmac=1eed107f57fd21c32d029b859ba2862b9f9c00f87ea54ec7a6b69351ec396e22);
+}
+
+
+.author {
+  
+  font-size: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.205);
+  border-radius: 10%;
+  background-image: url(https://i.pinimg.com/564x/23/0d/d5/230dd5c6a262804448fca42202f7bfd5.jpg);
+  margin: 10px;
+  padding: .5rem;
+  margin-top: -25px;
+  padding-top: 10px;
+  z-index: 999;
+  box-shadow: 8px 8px 6px rgba(157, 189, 142, 0.6);
+  
+  
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding: 1rem;
+  bottom:  30px;
+  left: 50%;
+  right: 50%;
+  
+
+}
+
+button {
+  cursor: pointer;
+  color : aqua;
+  border: 0.25em solid aqua;
+  border-radius: 0.35em;
+  background: none;
+  perspective: 2em;
+  
+}
+
+button:hover {
+  transform: scale(1px);
+  background-image: url(https://i.pinimg.com/564x/da/ce/28/dace28adf1cc40de1fd125baf304e7e3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 15px;
+}
